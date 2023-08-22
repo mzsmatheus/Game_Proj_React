@@ -1,0 +1,44 @@
+html, body {
+
+  height: 100%;
+
+}
+
+body{
+
+  font-family: monospace;
+  background: linear-gradient(180deg,
+  #121211 0%,
+  #01143cd8  100%
+  );
+  margin: 0;
+  padding: 0;
+  color: #02f6c1;
+
+}
+
+button{
+
+  width: 220px;
+  font-family: monospace;
+  color:  rgb(245, 235, 235);
+  background-color:#535353;
+  border: 2px solid;
+  border-radius: 25px;
+  border-color: #02f6c1;
+  padding: 0 45 px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.4em;
+  cursor: pointer;
+  transition: .4s;
+  text-transform: uppercase;
+
+}
+
+button:hover{
+
+  background-color: #121211;
+
+
+}
