@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import "./Game.css";
+import Logo from "../assets/logoteste1.png"
 
 const Game = ({ verifyLetter, guessedLetters, pickedWord, pickedCategory, guesses, points, letters, wrongLetters }) => {
 
@@ -18,6 +19,7 @@ const Game = ({ verifyLetter, guessedLetters, pickedWord, pickedCategory, guesse
 
   return (
     <div className="game">  
+    <img className="Logogame" src = {Logo} alt="logo" />  
     <p className="score">
       <span>Score: {points} </span>
     </p>
@@ -50,7 +52,7 @@ const Game = ({ verifyLetter, guessedLetters, pickedWord, pickedCategory, guesse
       value={letter}
       ref={letterInputRef}
       />
-      <button>Play!</button>
+      <button>Select!</button>
     </form> 
     </div>
     <div className="wrongLettersContainer">
