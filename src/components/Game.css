@@ -1,0 +1,94 @@
+.game {
+
+    padding: 6em;
+
+}
+.game h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+  }
+  .game p {
+    font-size: 1.2em;
+    color: #02f6c1;
+  }  
+  
+  .score span {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(245, 235, 235);
+  }
+  
+  .hint {
+
+    font-size: 1.6em;
+    color: rgb(245, 235, 235);
+
+  }
+
+
+  .hint span {
+    color: #f6fa00
+  }
+  
+  .wordContainer {
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 20px solid #f6fa00;
+    border-radius: 10px;
+    display: flex;
+  }
+  
+  .letter,
+  .blank {
+    font-size: 70px;
+    line-height: 1.5;
+    border: 3px solid #000;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .letterSlot p {
+
+    color: rgb(245, 235, 235);
+    font-size: 1.4em;
+    margin-bottom: 1.2em;
+  }
+  
+  .letterSlot form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .letterSlot input {
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    text-align: center;
+    margin-right: 1em;
+  }
+
+  .wrongLettersContainer{
+
+    color: rgb(245, 235, 235);
+    font-size: 1.4em;
+    margin-bottom: 1.2em;
+
+  }
+
+  .wrongLettersContainer p{
+
+    color: rgb(245, 235, 235);
+
+  }
+
+  .wrongLettersContainer p{
+
+    color: #f6fa00;
+    
+  }
